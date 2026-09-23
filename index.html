@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo App</title>
+    <title>Modern Todo App</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,7 +11,11 @@
         <h1>Todo App</h1>
         <div class="input-container">
             <input type="text" id="todoInput" placeholder="Add a new task...">
-            <button onclick="addTodo()">Add</button>
+            <button onclick="addTodo()">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2v20M2 12h20"/>
+                </svg>
+            </button>
         </div>
         <ul id="todoList"></ul>
     </div>
